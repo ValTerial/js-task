@@ -12,7 +12,7 @@ let second = 10;
 alert(`${hour}:${minute}:${second}`);
 /*3)*/
 var num = 10;
-num = ++num;
-num = ++num;
+++num;
+++num;
 alert(num);
 
