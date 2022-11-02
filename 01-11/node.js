@@ -19,11 +19,19 @@ console.log(result);*/
 
 //3
 
+<<<<<<< HEAD
 /*const numberCode = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
 let result = [];
 for (let i = 0; i <= numberCode.length; i++){
     if (i % 2 === 0){
         result += numberCode[i];
+=======
+const numberCode = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+let result = 0;
+for (let i = 0; i < numberCode.length; i++){
+    if ((numberCode[i] % 2) === 0){
+        numberCode[i].push(result)
+>>>>>>> 6d8b98e (feat 02-11)
     }
 }
-console.log(result)*/
+console.log(result)
