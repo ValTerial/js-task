@@ -3,6 +3,7 @@
 
 function hello() {
     alert('Привет, JavaScript!');
+    return;
 }
 hello();
 
