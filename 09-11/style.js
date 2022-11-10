@@ -10,10 +10,10 @@ setTimeout(timer2, 8000, 'Hello after');*/
     первое из которых - год рождения ученика, а второе – нынешний (текущий) год.
     Программа должна вывести на экран возраст ученика (в целых годах).
 ввод: 2006, 2018 ⇒ вывод: вам 12 лет)*/
-const showOld = () => {
-    let year = [];
-    for (let i = 2000; i < year.length; i++){
 
-    }
+const yearOfBirth = +prompt('год рождения');
+const tishYear = +prompt('нынешний год')
+let result = yearOfBirth - tishYear;
 
-}
+alert(`вам ${result} лет`);
+
