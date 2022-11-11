@@ -1,0 +1,14 @@
+.picture{
+    display: flex;
+    justify-content: space-around;
+}
+.picture img {
+    border: solid 1px black;
+    margin-bottom: 5px;
+    width: 200px;
+    height: 200px;
+}
+p{
+    border: solid 1px black;
+    font-size: 15px;
+}
