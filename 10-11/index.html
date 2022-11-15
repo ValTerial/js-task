@@ -2,21 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>10-11</title>
-    <link rel="stylesheet" href="style.css">
+    <title>События </title>
 </head>
 <body>
-<div class="picture">
-    <div>
-        <div id="loss" ><img src="./picture/loss.png" alt=""></div>
-        <p class="desc_loss"></p>
-        <a href="" id="info_loss">Check</a>
-    </div>
-    <div>
-        <div id="gain" ><img src="./picture/gain.png" alt=""></div>
-        <p class="desc_gain"></p>
-        <a href="" id="info_gain">Check</a>
-    </div>
+<style>
+    #image-block{
+        display: flex;
+        justify-content: space-around;
+    }
+    #image-block img{
+        width: 300px;
+        height: 300px;
+    }
+</style>
+<div id="image-block">
+    <img src="./picture/gain.png" alt="Описание первого изображения">
+    <img src="./picture/loss.png" alt="Описание второго изображения">
+    <img src="./picture/analysis.png" alt="Описание третьего изоюражения">
+</div>
+<div id="link-block">
+    <a href="#">link№1</a>
+    <a href="#">link№2</a>
 </div>
 <script src="script.js"></script>
 </body>

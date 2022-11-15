@@ -1,35 +1,27 @@
-//1)
-const picture_loss = document.querySelector('#loss').onclick = () => {
-    document.querySelector('.desc_loss').innerHTML = 'dollar loss!!!'
+//1
+/*
+const images = document.querySelectorAll('#image-block img');
+for (let i = 0; i < images.length; i++){
+    images[i].onclick = () => {
+        alert(images[i].alt);
+    }
+}*/
+//2
+/*const linkDesc = document.querySelectorAll('#link-block a');
+for (let i = 0; i < linkDesc.length; i++){
+    linkDesc[i].onmouseenter = () => alert(linkDesc[i])
+}*/
+//3
+/*function getString() {
+    let str = '';
+
+    for (let i = 0; i < arguments.length; i++){
+        str += arguments[i] + ' ';
+    }
+    return str;
 }
 
-//2)
-const info_loss = document.querySelector('#info_loss').onmouseenter = () => {
-    alert("INFO loss");
-}
-
-
-//1)
-const picture_gain = document.querySelector('#gain').onclick = () => {
-    document.querySelector('.desc_gain').innerHTML = 'dollar gain!!!'
-}
-
-//2)
-const info_gain = document.querySelector('#info_gain').onmouseenter = () => {
-    alert("INFO gain");
-}
-
-//3)
-let stringArrayH = ['Hello'];
-let stringArrayW = ['world'];
-const sum = () =>{
-    return
-}
-
-
-
-
-
-
+let result = getString('hello', 'world');
+console.log(result);*/
 
 
