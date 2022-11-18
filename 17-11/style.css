@@ -1,0 +1,32 @@
+.content{
+    gap: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 720px;
+    height: 500px;
+
+}
+
+.btn{
+    font-size: 25px;
+    width: 335px;
+    margin: 10px 8px;
+    height: 60px;
+}
+.inner-div{
+    background-color: aqua;
+    border: 1px solid blue;
+}
+.outer-div{
+    background-color: aqua;
+    border: 1px solid blue;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+}
+li{
+    color: red;
+}
+

@@ -1,0 +1,57 @@
+.button-block{
+   display: flex;
+    justify-content: center;
+}
+.btn{
+    padding: 15px 30px;
+    margin: 15px;
+    border: 0;
+    background-color: darkblue;
+    color: white;
+    font-size: 19px;
+}
+.notification{
+    justify-content: space-between;
+    margin-top: 80px;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    width: 700px;
+    height: 30px;
+    text-align: center;
+    padding-left: 10px;
+    position: absolute;
+    top: 10px;
+    left: calc(50% - 350px);
+    border-radius: 0.375rem;
+
+}
+.notification-primary{
+    color: #084298;
+    background-color: #e2e3e5;
+    border-color: #d3d6d8;
+}
+.notification-secondary{
+    color: #41464b;
+    background-color: #e2e3e5;
+    border-color: #d3d6d8;
+}
+.notification-success{
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+}
+.test{
+    padding: 15px;
+    text-align: center;
+    border: 2px solid green;
+}
+.d-btn{
+    border: 0;
+    background-color: inherit;
+    font-size: 20px;
+    font-stretch: ultra-expanded;
+}
+.d-none{
+    display: none;
+}
